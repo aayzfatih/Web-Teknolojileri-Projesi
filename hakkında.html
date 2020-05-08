@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="assets\css/bootstrap.css">
+        
+        <link rel="stylesheet" href="assets\css/bootstrap-grid.css">
+        <link rel="stylesheet" href="assets/css/inter-ui.css">
+        <link rel="stylesheet" href="assets/css/wowanimate.css">
+        
+        <title>Ayaz</title>
+      
+    </head>
+    
+    <body>
+        
+      
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #000; max-height: 90px" >
+            
+      
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" style="font-style: italic; font-size: 25px" href="hakkında.html"><strong>Hakkında</strong></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" href="miras.html" style="color: darkolivegreen">Mirasımız<span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link" href="iletişim.html">İletişim</a>
+                        <a class="nav-item nav-link" href="şehrim.html" style="color: firebrick">Şehrim</a>
+                    </div>
+                </div>
+            </nav>
+             
+            <!--search kısmı-->
+            <div class="collapse navbar-collapse"  >             
+                <ul class="navbar-nav ml-auto">
+                </ul>
+                <div style="margin-right: 30px">           
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search"  >
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </div>                
+            </div> 
+            
+           
+            
+	<!--<input type="file" id="myFile">-->
+	
+    <!--<button onclick="loadFileAsText()">Read</button><br />-->
+	
+	<!--<textarea id="inputTextToSave"></textarea> <br />-->
+	
+	<!--<button onclick="savefile()">Save</button>-->
+	
+	
+        
+            
+            <!--giriş yap buton--> 
+        <div style="margin-right: 60px">
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Giriş Yap</button>
+
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Bilgileri Giriniz</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <form name="kayit" id="kayit" method="GET">
+                                <div class="form-group row">
+                                    <label id="inputTextToSave" for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                                    <div class="col-sm-10">
+                                        <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label id="inputTextToSave" for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+                                    <div class="col-sm-10">
+                                        <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <div class="col-sm-10">
+                                        <button onclick="savefile()" type="submit" class="btn btn-primary">Sign in</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+                   
+       </nav>
+        <!-- resim-yazılar -->
+        <div class="container mt-5">
+            <div class="row">
+               <div class="col align-self-start; wow bounceInLeft">
+                    <img src="assets/futbol.jpg" class="rounded float-left" alt="futbol">
+                </div>
+                <div class="col align-self-center">
+                    <div class="wow bounceInRight">
+                        <h1 style="text-align: center">Futbol</h1>
+                            <p  style="text-align: center" >
+                                Doğduğumdan beri belkide en büyük hobilerim arasında yer alan futbol,şuanda bütün dünyada takip edilen en büyük spor dalıdır.Oynamasının yanı sıra izlemek bile insana ayrı bir heyecan katıyor.
+
+                                Çocukluğumdan beri kalecilikle uğraştuğım ve okul turnuvaları olmak üzere birtakım başarılarım da vardır.
+                            </p>
+                        </div>
+                    </div>
+               </div>
+            </div>
+       
+        
+            
+            <div class="row">
+                <div class="col align-self-center">
+                    <div class="wow lightSpeedIn center">
+                        <h1 style="text-align: center">Basketbol</h1>
+                        <p style="text-align: center">
+                            En sevdiğim ikinci spor dalı olarak da tanımladığım basketbol ABD'de futboldan daha önce gelmektedir.İnsanlar için bir yaşam biçimi olmuştur.
+                            
+                            Benim için ise basketbol lise hayatında başlamıştır.Futbol gibi izlemesi ve de oynaması çok zevklidir.Ama bir seçim yapmam gerekirse seçimimi futboldan
+                            
+                            yana kullanırım.Basketbol benim için fiziki anlamda da gelişmemde yardımcı olan bir spor dalı olmuştur.Son olarak da en çok istediğimm şeylerden bir tanesi de
+
+                            canlı olarak bir NBA maçı izlemek.    
+                        </p>
+                    </div>        
+                </div>
+                <div class="col align-self-start; wow flipInX center">
+                    <img  src="assets/basketbol.jpg" class="rounded float-right" alt="basketbol">
+                </div>
+            </div>
+       
+        
+           
+            <div class="row "> 
+                  <div class="col wow rollIn"> 
+                     <img  src="assets/eğitim.jpg" style="margin-left: 100px;" alt="resim" >
+                  </div>
+                  <div class="col align-self-center">
+                      <div class="wow rollIn">
+                          <h1 style="text-align: center">Eğitim</h1>
+                            <p style="text-align: center">
+                                Herkesin olduğu gibi benim de sıradan eğitim-öğretim hayatım vardı.İlkokul ortaokul <strong> Burhanettin Kaya İlkokulu</strong>'nda okudum.
+
+                                Lisede evden biraz uzaklaşmştım ve <strong>Dr.İlhami Tankut Anadolu Lisesi</strong>'ni kazandım.Liseden sonra ise <strong>Sakarya Üniversitesi</strong>
+
+                                Bilgisayar Mühendisliği bölümünü kazandım.Şu anda hala bu bölüme devam etmekteyim.
+                            </p>
+                      </div>                   
+                </div>                 
+            </div>
+           
+            
+            
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+                
+        <script src="assets/js/wow.min.js"></script>
+      <script>
+       new WOW().init();
+     </script>
+     <script>
+       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+       ga('create', 'UA-45901861-2', 'auto');
+       ga('send', 'pageview');
+
+     </script>
+        
+    </body>
+</html>
+
